@@ -1,2 +1,2 @@
-# spectrum-at-cal.github.io
-Spectrum-at-cal website
+# spectrum-at-cal
+Website for Spectrum at Cal

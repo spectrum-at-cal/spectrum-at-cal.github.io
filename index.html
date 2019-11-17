@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Stylesheet -->
+	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Material Icons -->
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700|Work+Sans" rel="stylesheet">
+
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <script
+         src="https://code.jquery.com/jquery-3.4.1.js"
+         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+         crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <script src="https://kit.fontawesome.com/3be5c75374.js" crossorigin="anonymous"></script>
+		 <link rel = "stylesheet" type = "text/css" href = "main.css">
+		 <title>Spectrum @Cal</title>
+	</head>
+	<body>
+        <nav id="main-nav" class="slideanim4">
+                <!--CONTENT FROM INDEX.JS-->
+        </nav>
+        <nav role="navigation" id="phone-nav" class="slideanim4">
+                 <!--CONTENT FROM INDEX.JS-->   
+        </nav>
+
+        <section id="home-main">
+            <div id="home-circle">
+                <div id="inner-circle">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10">
+                    <h4 class="bubble slideanim4 delay1"><i class="far fa-star fa-icon"></i> <strong>ASUC Registered</strong> Student Organization</h4>
+                    <h1 class="slideanim2">Spectrum @Cal</h1>
+                    <h4 class="slideanim delay1">Empowering the local autism community</h4>
+                    <br/>
+                    <button class="main-button slideanim delay2">
+                        <a href="about.html">About Us <i class="fas fa-angle-right fa-icon"></i></a>
+                    </button>
+                    <button class="secondary-button slideanim delay2">
+                            <a href="run.html">5k Run <i class="fas fa-angle-right fa-icon"></i></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="home-about">
+            <div id="who-are-we">
+                <h2 class="slideanim">What is Spectrum?</h2>
+                <p class="slideanim">Autism Spectrum Disorders (ASD) are prevalent in our society, affecting 1 in 59 children. Currently, there is difficulty among those on the spectrum and their families to receive the adequate healthcare and community support.  </p>
+                <p class="slideanim">Our student-run club on campus, Spectrum at Cal, strives to promote autism awareness, inclusion, and community building through our club meetings, awareness weeks, and on-campus events to combat the stigma that those on the spectrum face.</p>
+                <br/>
+                <button class="main-button slideanim">
+                        <a href="about.html">Learn More <i class="fas fa-angle-right fa-icon"></i></a>
+                </button>
+            </div>
+            <div id="img-border" class="slideanim"><img src="images/spectrum-main.jpeg"></div>
+        </section>
+        <br/>
+        <!--INSERT INSTAGRAM FEED EVENTUALLY-->
+        <section id="contact" name="contact">
+            <div class="bubble slideanim4"><i class="fab fa-stack-exchange fa-icon"></i>Have a Question? Need help?</div>
+            <h2 class="slideanim">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contact-form">
+                        <h4 class="slideanim">Send Us a Message</h4>
+                        <label class="slideanim">Name</label>
+                        <input type="text" name="name" id="message_name" placeholder="please enter your name..." class="slideanim"/>
+                        <label class="slideanim">Email</label>
+                        <input class="slideanim" name="email" type="email" id="message_email" placeholder="please enter an email address we can reach you at..."/>
+                        <label class="slideanim">Message</label>
+                        <textarea class="slideanim" name="message" type="text" id="message_msg" resize="none" rows='5' placeholder="please enter your message..."></textarea>
+                        <button  type="submit" id="submit-message" class="main-button slideanim">Submit <i class="fas fa-share fa-icon"></i></button>
+                        <p id="form-errors"></p>
+                    </form>
+                </div>
+                <div class="col-md-6" id="contact-social">
+                    <h4 class="slideanim">Social</h4>
+                    <label class="slideanim">Email </label>
+                    <a class="slideanim" href="mailto:spectrumatcal@gmail.com">spectrumatcal@gmail.com</a>
+                    <label class="slideanim3">Facebook</label>
+                    <a class="slideanim" href="https://www.facebook.com/SpectrumatCal/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <label class="slideanim">Instagram</label>
+                    <a class="slideanim3" href="https://www.instagram.com/spectrum_at_cal/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div id="footer">
+            <!--get content from JS-->
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
