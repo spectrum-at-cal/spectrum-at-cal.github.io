@@ -1,2 +1,2 @@
 # spectrum-at-cal
-Website for Spectrum at Cal [spectrumatcal.org](www.spectrumatcal.org)
+Website for Spectrum at Cal [spectrumatcal.org](https://spectrumatcal.org)
