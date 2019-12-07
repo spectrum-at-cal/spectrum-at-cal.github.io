@@ -205,7 +205,7 @@ button:hover a {
     left: -2%;
     top: 0;
     padding: 30vh 0px;
-    background-image: url('images/autism-main-bg.svg');
+    background-image: url('../images/autism-main-bg.svg');
     background-size: cover;            
     background-repeat:   no-repeat;
     background-position: 0px center;
@@ -300,7 +300,7 @@ button:hover a {
 
 #contact {
     padding: 70px 10% 130px 10%;
-    background-image: url('images/message-bg.svg');
+    background-image: url('../images/message-bg.svg');
     background-size: cover;            
     background-repeat:   no-repeat;
     background-position: 0px center;
@@ -394,7 +394,7 @@ button:hover a {
     padding: 20vh 6% 30vh 6%;
     color: white;
     position: relative;
-    background-image: url('images/about-bg.svg');
+    background-image: url('../images/about-bg.svg');
     background-size: cover;            
     background-repeat:   no-repeat;
     background-position: center center;
@@ -710,7 +710,7 @@ button:hover a {
 /*COLUMNS*/
 #columns-head {
     padding: 25vh 8% 40vh 8%;
-    background: url('images/columns-bg.svg');
+    background: url('../images/columns-bg.svg');
     background-size: cover;
     background-position: bottom;
     color: white;
@@ -868,7 +868,7 @@ button:hover a {
 /* Mentorship */
 #mentor-head {
     padding: 22vh 8% 30vh 8%;
-    background: url('images/mentorship.svg');
+    background: url('../images/mentorship.svg');
     background-size: cover;          
     background-position: 0%;
     color: white;
@@ -1263,7 +1263,7 @@ button:hover a {
     }
     #home-main {
         padding: 28vh 0px;
-        background-image: url('images/autism-main-bg.svg');
+        background-image: url('../images/autism-main-bg.svg');
         background-size: cover;            
         background-repeat:   no-repeat;
         background-position: 30% top;
