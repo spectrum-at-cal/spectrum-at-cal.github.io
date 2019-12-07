@@ -18,6 +18,7 @@ const footer = "<div class=\"row\"><div class=\"col-md-2\" id=\"footer-socials\"
 const mainNav = "<div id=\"nav-links\"><a href=\"../index.html\" class=\"nav-link\">Home</a><a href=\"../about.html\" class=\"nav-link\">About</a><div id=\"dropdown\"><a href=\"#\" class=\"nav-link\">Programs <i class=\"fas fa-angle-down\"></i></a><div id=\"dropdown-menu\"><a href=\"../awareness.html\" style=\"border-radius: 5px 5px 0px 0px\">Awareness Week</a><a href=\"../run.html\" style=\"border-radius: 0px 0px 5px 5px\"><i class=\"far fa-star fa-icon\"></i> 5k Run</a></div></div><a href=\"../columns.html\" class=\"nav-link\">Columns</a><a href=\"../index.html#contact\" class=\"nav-link\">Contact</a></div>"
 const phoneNav = "<div id=\"menuToggle\"><input type=\"checkbox\" /><span></span><span></span><span></span><ul id=\"menu\"><li><a href=\"../index.html\">Home</a></li><li><a href=\"../about.html\">About</a></li><li id=\"mobile-programs\"><a >Programs <i class=\"fas fa-angle-down\"></i></a></li><div id=\"dropdown2\"><li><a href=\"../awareness.html\">Awareness Week</a></li><li><a href=\"../run.html\">5k Run</a></li></div><li><a href=\"../columns.html\">Columns</a></li><li><a href=\"../index.html#contact\" id=\"contact-link\">Contact</a></li></ul></div>"
 
+
 $(document).ready(() => {
     $("#main-nav").html(mainNav)
     $("#phone-nav").html(phoneNav)
