@@ -14,7 +14,11 @@ $(window).scroll(() => {
     slideAnim()
 })
 
-const footer = "<div class=\"row\"><div class=\"col-md-2\" id=\"footer-socials\"><a href=\"https://www.facebook.com/SpectrumatCal/\"><i class=\"fab fa-facebook\"></i></a><a href=\"https://www.instagram.com/spectrum_at_cal/\"><i class=\"fab fa-instagram\"></i></a><a href=\"https://twitter.com/SpectrumCal1/\"><i class=\"fab fa-twitter\"></i></a></div><div class=\"col-md-6\"></div><div class=\"col-md-2\"><a href=\"index\">Home</a><a href=\"about\">About</a><a href=\"columns\">Columns</a></div><div class=\"col-md-2\"><a href=\"awareness\">Awareness Week</a><a href=\"run\">5k Run</a> <a href=\"mentoring\">Mentoring</a></div></div><hr/><p>Spectrum @Cal 2019.</p>"
+let fbLink = "https://www.facebook.com/SpectrumatCal/";
+let instagramLink = "https://www.instagram.com/spectrum_at_cal/";
+let twitterLink =  "https://twitter.com/SpectrumCal1/";
+
+const footer = "<div class=\"row\"> <div class=\"col-md-2\" id=\"footer-socials\"><a href="+ fbLink + " target='_blank'><i class=\"fab fa-facebook\"></i></a><a href=" + instagramLink +" target='_blank'><i class=\"fab fa-instagram\"></i></a><a href=" + twitterLink + " target='_blank'><i class=\"fab fa-twitter\"></i></a></div><div class=\"col-md-6\"></div><div class=\"col-md-2\"><a href=\"index\">Home</a><a href=\"about\">About</a><a href=\"columns\">Columns</a></div><div class=\"col-md-2\"><a href=\"awareness\">Awareness Week</a><a href=\"run\">5k Run</a> <a href=\"mentoring\">Mentoring</a></div></div><hr/><p>Spectrum @Cal 2019.</p>"
 const mainNav = "<div id=\"nav-links\"><a href=\"index\" class=\"nav-link\">Home</a><a href=\"about\" class=\"nav-link\">About</a><div id=\"dropdown\"><a href=\"#\" class=\"nav-link\">Programs <i class=\"fas fa-angle-down\"></i></a><div id=\"dropdown-menu\"><a href=\"awareness\" style=\"border-radius: 5px 5px 0px 0px\">Awareness Week</a><a href=\"run\" style=\"border-radius: 0px 0px 5px 5px\"><i class=\"far fa-star fa-icon\"></i> 5k Run</a><a href=\"mentoring\" style=\"border-radius: 5px 5px 0px 0px\">Mentoring</a></div></div><a href=\"columns\" class=\"nav-link\">Columns</a><a href=\"index.html#contact\" class=\"nav-link\">Contact</a></div>"
 const phoneNav = "<div id=\"menuToggle\"><input type=\"checkbox\" /><span></span><span></span><span></span><ul id=\"menu\"><li><a href=\"index\">Home</a></li><li><a href=\"about\">About</a></li><li id=\"mobile-programs\"><a >Programs <i class=\"fas fa-angle-down\"></i></a></li><div id=\"dropdown2\"><li><a href=\"awareness\">Awareness Week</a></li><li><a href=\"run\">5k Run</a></li><li><a href=\"mentoring\">Mentoring</a></li></div><li><a href=\"columns\">Columns</a></li><li><a href=\"index.html#contact\" id=\"contact-link\">Contact</a></li></ul></div>"
 
@@ -57,10 +61,10 @@ submit = () => {
 }
 
 toggleSection = () => {
-    var secid = event.currentTarget.parentNode.parentNode.id
-    console.log(secid)
-    $("#" + secid + " section").slideToggle(500)
-    $("#" + secid + " .line1").toggleClass("short")
+    var secID = event.currentTarget.parentNode.parentNode.id;
+    console.log(secID);
+    $("#" + secID + " section").slideToggle(500)
+    $("#" + secID + " .line1").toggleClass("short")
 }
 
 slideAnim = () => {
