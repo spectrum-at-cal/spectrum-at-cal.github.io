@@ -744,6 +744,11 @@ button:hover a {
     color: white;
     background: linear-gradient(100deg, var(--pop), var(--secondary-color), var(--main-color));
 }
+
+.column-sec-head:hover {
+    cursor: pointer;
+}
+
 .column-sec-head h3 {
     font-size: 28px;
 }

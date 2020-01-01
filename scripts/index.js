@@ -61,8 +61,7 @@ submit = () => {
 }
 
 toggleSection = () => {
-    var secID = event.currentTarget.parentNode.parentNode.id;
-    console.log(secID);
+    let secID = event.currentTarget.parentNode.id;
     $("#" + secID + " section").slideToggle(500)
     $("#" + secID + " .line1").toggleClass("short")
 }
