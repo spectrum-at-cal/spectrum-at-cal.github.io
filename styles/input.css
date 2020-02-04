@@ -89,9 +89,28 @@ button:hover a {
     background-color: var(--pop);
     box-shadow: 0px 0px 6px var(--pop);
 }
+
+#run-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+#eventbrite-logo {
+    position: relative;
+    top: 5px;
+}
+
+.logo-button {
+    margin: 10px;
+}
+
 .secondary-button {
-    background-color: var(--dark);
-    box-shadow: 0px 0px 6px var(--dark);
+    background-color: var(--dark-bg);
+    box-shadow: 0px 0px 6px var(--dark-bg);
 }
 #border-bot {
     width: 60px;
